@@ -1,6 +1,6 @@
 {% set name = "param" %}
-{% set version = "1.5.1" %}
-{% set sha256 = "3f5c771aedc84f342bd9d40b982daef87f0d524e1cdaa1e81d33d40de2025866" %}
+{% set version = "1.6.0" %}
+{% set sha256 = "868e6c0e2cfe2a6240a125ad0e1cdedfd201eba64269ac87aaa05b489d996364" %}
 
 package:
   name: {{ name|lower }}

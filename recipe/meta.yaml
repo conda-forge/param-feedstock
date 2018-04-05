@@ -1,18 +1,17 @@
 {% set name = "param" %}
 {% set version = "1.6.0" %}
-{% set sha256 = "868e6c0e2cfe2a6240a125ad0e1cdedfd201eba64269ac87aaa05b489d996364" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://github.com/ioam/param/archive/v{{version}}.tar.gz
-  sha256: {{ sha256 }}
+  git_url: https://github.com/ioam/param.git
+  git_rev: v{{version}}
+  git_depth: 60
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: python setup.py install --single-version-externally-managed --record record.txt
 

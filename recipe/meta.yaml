@@ -5,13 +5,14 @@ package:
   name: {{ name|lower }}
   version: {{ version }}
 
+  
 source:
-  git_url: https://github.com/ioam/param.git
-  git_rev: v{{version}}
-  git_depth: 60
+  fn: param-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/p/param/param-{{ version }}.tar.gz
+  sha256: 6d98e093df457d1b2db849fb911d33b67c47551f09521aa40b938ebc836b29db
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: python setup.py install --single-version-externally-managed --record record.txt
 
@@ -23,16 +24,9 @@ requirements:
     - python >=2.7
 
 test:
-  requires:
-    - nose
-  source_files:
-    - setup.cfg
-    - tests
   imports:
     - param
     - numbergen
-  commands:
-    - nosetests tests
 
 about:
   home: http://ioam.github.io/param/

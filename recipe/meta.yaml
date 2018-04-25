@@ -1,25 +1,25 @@
 {% set name = "param" %}
-{% set version = "1.6.0" %}
+{% set version = "1.6.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
-  
+
 source:
   fn: param-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/param/param-{{ version }}.tar.gz
-  sha256: 6d98e093df457d1b2db849fb911d33b67c47551f09521aa40b938ebc836b29db
+  sha256: 9a41e6fc6ff48f6a0c0403e97b500d7788f11c5b06278c93f3265510d5445115
 
 build:
-  number: 2
+  number: 0
   noarch: python
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python >=2.7
 

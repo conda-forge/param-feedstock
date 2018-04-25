@@ -19,12 +19,15 @@ if not specified in a subclass.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/param-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/param-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/param-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/param-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/param/badges/version.svg)](https://anaconda.org/conda-forge/param)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/param/badges/downloads.svg)](https://anaconda.org/conda-forge/param)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-param-green.svg)](https://anaconda.org/conda-forge/param) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/param.svg)](https://anaconda.org/conda-forge/param) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/param.svg)](https://anaconda.org/conda-forge/param) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/param.svg)](https://anaconda.org/conda-forge/param) |
 
 Installing param
 ================

@@ -1,5 +1,5 @@
 {% set name = "param" %}
-{% set version = "1.8.1" %}
+{% set version = "1.8.2" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +9,7 @@ package:
 source:
   fn: param-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/param/param-{{ version }}.tar.gz
-  sha256: 474bdd2d4a0b95c51bb39a74010a13146dafab848c21b95171a54b50abb074d3
+  sha256: 49927979d4f6c994bcd8f6f7f2b34e3a0a7f0d62404dca6bcae5acde0192bb01
 
 build:
   number: 0
@@ -40,7 +40,7 @@ about:
     dynamically generated values, documentation strings, default
     values, etc., each of which is inherited from parent classes
     if not specified in a subclass.
-  doc_url: https://ioam.github.io/param/
+  doc_url: https://param.pyviz.org/
   dev_url: https://github.com/ioam/param
 
 extra:

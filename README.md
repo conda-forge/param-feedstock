@@ -5,9 +5,13 @@ Home: http://ioam.github.io/param/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/param-feedstock/blob/master/LICENSE.txt)
 
 Summary: Param: Make your Python code clearer and more reliable by declaring Parameters
+
+Development: https://github.com/ioam/param
+
+Documentation: https://param.pyviz.org/
 
 Param is a library providing Parameters: Python attributes
 extended to have features such as type and range checking,

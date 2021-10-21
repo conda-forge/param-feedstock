@@ -1,5 +1,5 @@
 {% set name = "param" %}
-{% set version = "1.11.1" %}
+{% set version = "1.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +9,7 @@ package:
 source:
   fn: param-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/param/param-{{ version }}.tar.gz
-  sha256: b9857df01495bd55ddafb214fd1ed017d20699ce42ec2a0fd190d99caa03099f
+  sha256: 35d0281c8e3beb6dd469f46ff0b917752a54bed94d1b0c567346c76d0ff59c4a
 
 build:
   number: 0
@@ -29,7 +29,7 @@ test:
     - numbergen
 
 about:
-  home: http://ioam.github.io/param/
+  home: https://param.pyviz.org/
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
@@ -40,8 +40,8 @@ about:
     dynamically generated values, documentation strings, default
     values, etc., each of which is inherited from parent classes
     if not specified in a subclass.
-  doc_url: https://param.pyviz.org/
-  dev_url: https://github.com/ioam/param
+  doc_url: https://param.holoviz.org/
+  dev_url: https://github.com/holoviz/param
 
 extra:
   recipe-maintainers:

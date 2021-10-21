@@ -29,7 +29,7 @@ test:
     - numbergen
 
 about:
-  home: http://ioam.github.io/param/
+  home: https://param.pyviz.org/
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
@@ -40,8 +40,8 @@ about:
     dynamically generated values, documentation strings, default
     values, etc., each of which is inherited from parent classes
     if not specified in a subclass.
-  doc_url: https://param.pyviz.org/
-  dev_url: https://github.com/ioam/param
+  doc_url: https://param.holoviz.org/
+  dev_url: https://github.com/holoviz/param
 
 extra:
   recipe-maintainers:

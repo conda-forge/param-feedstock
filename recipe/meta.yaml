@@ -29,7 +29,7 @@ test:
     - numbergen
 
 about:
-  home: https://param.pyviz.org/
+  home: https://param.holoviz.org/
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt

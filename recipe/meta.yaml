@@ -1,5 +1,5 @@
 {% set name = "param" %}
-{% set version = "1.12.2" %}
+{% set version = "1.12.3" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +9,7 @@ package:
 source:
   fn: param-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/param/param-{{ version }}.tar.gz
-  sha256: f9ccc45c7f329150fc3dca517b4595859199aa08d9cda2ecdebc112bbe718c0f
+  sha256: 81080d7c3a78fc2f5e7048c0fa2a16a8d3b9f408a4b3e7cac58b8cf417cbfc68
 
 build:
   number: 0
@@ -29,7 +29,7 @@ test:
     - numbergen
 
 about:
-  home: https://param.pyviz.org/
+  home: https://param.holoviz.org/
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt

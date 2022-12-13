@@ -156,5 +156,6 @@ Feedstock Maintainers
 
 * [@basnijholt](https://github.com/basnijholt/)
 * [@jlstevens](https://github.com/jlstevens/)
+* [@maximlt](https://github.com/maximlt/)
 * [@philippjfr](https://github.com/philippjfr/)
 

@@ -1,11 +1,11 @@
-About param
-===========
-
-Home: https://param.pyviz.org/
-
-Package license: BSD-3-Clause
+About param-feedstock
+=====================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/param-feedstock/blob/main/LICENSE.txt)
+
+Home: https://param.holoviz.org/
+
+Package license: BSD-3-Clause
 
 Summary: Param: Make your Python code clearer and more reliable by declaring Parameters
 

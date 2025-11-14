@@ -29,6 +29,7 @@ requirements:
 test:
   source_files:
     - tests
+    - pyproject.toml
   requires:
     - python {{ python_min }}
     - pip

@@ -7,17 +7,24 @@ Home: https://param.holoviz.org/
 
 Package license: BSD-3-Clause
 
-Summary: Param: Make your Python code clearer and more reliable by declaring Parameters
+Summary: Declarative parameters for robust Python classes and a rich API for reactive programming
 
 Development: https://github.com/holoviz/param
 
 Documentation: https://param.holoviz.org/
 
-Param is a library providing Parameters: Python attributes
-extended to have features such as type and range checking,
-dynamically generated values, documentation strings, default
-values, etc., each of which is inherited from parent classes
-if not specified in a subclass.
+Param is a zero-dependency library for declaring rich
+attributes - Parameters - with extended metadata used for
+various purposes such as runtime type and range validation,
+default values or factories, nullability, docstrings, etc.
+It also supplies a suite of reactive APIs (watch, depends,
+bind, and reactive expressions), enabling automatic updates
+on attribute changes and declaring complex reactive
+dependencies and expressions that can be introspected by other
+frameworks to implement their own reactive workflows.
+These capabilities power HoloViz projects like Panel and HoloViews,
+making Param a solid foundation for building validated,
+introspectable, and responsive libraries and applications.
 
 
 Current build status

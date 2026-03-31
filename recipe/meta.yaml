@@ -1,6 +1,6 @@
 {% set name = "param" %}
 {% set python_min = "3.10" %}
-{% set version = "2.3.2" %}
+{% set version = "2.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -10,7 +10,7 @@ package:
 source:
   fn: param-{{ version }}.tar.gz
   url: https://pypi.org/packages/source/p/param/param-{{ version }}.tar.gz
-  sha256: ec70669bda9a3c13491098e7f5b640f60022b58b2f5bc7997099d54ea237d1de
+  sha256: 43c24345d287d4abda15eac65b5b15d55f178a393421f0bfca02a77dd6c0d1dd
 
 build:
   number: 0

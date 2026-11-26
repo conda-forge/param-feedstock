@@ -1,6 +1,6 @@
 {% set name = "param" %}
-{% set python_min = "3.10" %}
-{% set version = "2.4.2" %}
+{% set python_min = "3.11" %}
+{% set version = "2.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -10,7 +10,7 @@ package:
 source:
   fn: param-{{ version }}.tar.gz
   url: https://files.pythonhosted.org/packages/source/p/param/param-{{ version }}.tar.gz
-  sha256: 40ca94b72c97bf1998325738e002d589ce31a7cfb4cc56549f05daa6ccf98043
+  sha256: a773b957a41fe8db3196e00d63a58a07ac0486aaf94040f21137cfd425e013d5
 
 build:
   number: 0
